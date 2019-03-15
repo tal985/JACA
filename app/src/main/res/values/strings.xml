@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">JACA</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Strings related to login -->
+    <!-- Borrowed from Professor Witchel -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_again">Password Again</string>
+    <string name="action_sign_in_register"><b>Sign in</b> or register</string>
+    <string name="sign_up">Sign up</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="error_invalid_email">enter a valid email.This email address is invalid</string>
+    <string name="error_invalid_password">enter a valid password. This password is too short</string>
+    <string name="error_incorrect_password">enter a valid password. This password is incorrect</string>
+    <string name="error_password_too_short">enter a valid password. This password is too short (less than 6 characters)</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_intro">"Please "</string>
+    <string name="error_blank_username">enter a username</string>
+    <string name="error_blank_password">enter a password</string>
+    <string name="error_mismatched_passwords">enter the same password twice</string>
+    <string name="error_join">", and "</string>
+    <string name="error_end">.</string>
+
+</resources>

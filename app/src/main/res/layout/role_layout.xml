@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightgraycgg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/statistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Statistics"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/winRate"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/graycgg"
+                android:text="Win Rate"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/winRateNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/graycgg"
+                android:text="TextView"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/playRate"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/customgray"
+                android:text="Play Rate"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/playRateNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/customgray"
+                android:text="TextView"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/banRate"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/graycgg"
+                android:text="Ban Rate"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/banRateNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/graycgg"
+                android:text="TextView"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/itembuilds"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Item Builds"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="442dp" />
+
+        <TextView
+            android:id="@+id/freqcomp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/graycgg"
+            android:text="Frequently Completed"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/fcitem1"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/fcitem2"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/fcitem3"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/fcitem4"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/fcitem5"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/fcitem6"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/hw"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/graycgg"
+            android:text="Highest Winrate"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/hwitem1"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/hwitem2"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/hwitem3"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/hwitem4"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/hwitem5"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/hwitem6"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Starter and Spells"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/freqorder"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/graycgg"
+            android:text="Frequently Used"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/fstart1"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/fstart2"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/fsum1"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/fsum2"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/fevo1"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/fevo2"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/fevo3"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+        </LinearLayout>
+
+        <com.tuan.jaca.DrawSkillGrid
+            android:id="@+id/foskillgrid"
+            android:layout_width="wrap_content"
+            android:layout_height="153dp" />
+
+        <TextView
+            android:id="@+id/hw2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/graycgg"
+            android:text="Highest Winrate"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/hwstart1"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/hwstart2"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/hwsum1"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/hwsum2"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/hwevo1"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/hwevo2"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+            <ImageView
+                android:id="@+id/hwevo3"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_sync_black_24dp" />
+        </LinearLayout>
+
+        <com.tuan.jaca.DrawSkillGrid
+            android:id="@+id/hwskillgrid"
+            android:layout_width="match_parent"
+            android:layout_height="153dp" />
+
+        <TextView
+            android:id="@+id/Runes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Runes"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/frunes"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/graycgg"
+            android:text="Frequently Used"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/fprune1"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/fprune2"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/fprune3"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/fprune4"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:srcCompat="@drawable/ic_sync_black_24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/fsrune1"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/fsrune2"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:srcCompat="@drawable/ic_sync_black_24dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/hwrunes"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/graycgg"
+            android:text="Highest Winrate"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/hwprune1"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/hwprune2"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/hwprune3"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/hwprune4"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:srcCompat="@drawable/ic_sync_black_24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/hwsrune1"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/hwsrune2"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    app:srcCompat="@drawable/ic_sync_black_24dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

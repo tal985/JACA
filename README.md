@@ -1,0 +1,2 @@
+# Just Another Champion.GG Application (DEFUNCT)
+An Android application that uses the Champion.GG API to load statistics for the MOBA game League of Legends. Not maintained anymore, missing API key, and not updated for Season 9.

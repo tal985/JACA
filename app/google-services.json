@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "807213557744",
+    "firebase_url": "https://jaca-df945.firebaseio.com",
+    "project_id": "jaca-df945",
+    "storage_bucket": "jaca-df945.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807213557744:android:128249530bdea673",
+        "android_client_info": {
+          "package_name": "com.tuan.jaca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807213557744-dk1sevkv8vdk6ev3l5lrd15l4hg5rcoj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tuan.jaca",
+            "certificate_hash": "7586d8cd46cedfb1f6c012e303c9a184e2f346b3"
+          }
+        },
+        {
+          "client_id": "807213557744-56rvs5jgpdis5oe90h21n7tik67sfs3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc6GLqenKX1ZReNorlRs6oi2EOvk1TaCQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807213557744-56rvs5jgpdis5oe90h21n7tik67sfs3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
